@@ -4,6 +4,8 @@ Landing page responsiva para apresentar Felipe de Souza, bacharel em Educação 
 
 ## Tecnologias
 
+A identidade visual usa preto, branco e tons de prata/cinza em harmonia com a logo original. As cores centrais ficam nas propriedades personalizadas de `:root` em `style.css` (`--primary`, `--primary-hover`, `--accent`, `--paper`, `--ink` e `--muted`).
+
 - HTML5 semântico.
 - CSS3: Grid, Flexbox, propriedades personalizadas e media queries.
 - JavaScript puro, sem bibliotecas, frameworks ou etapa de build.

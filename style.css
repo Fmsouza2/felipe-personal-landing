@@ -1,13 +1,13 @@
 /* 01. Tokens and foundations */
 :root {
-  --paper: #f6f7f1;
+  --paper: #f5f5f5;
   --white: #fff;
-  --ink: #202d25;
-  --muted: #59635c;
-  --green: #174936;
-  --green-dark: #123b2c;
-  --lime: #d1ee77;
-  --line: #dbe0d7;
+  --ink: #202020;
+  --muted: #5c5c5c;
+  --primary: #111111;
+  --primary-hover: #292929;
+  --accent: #dedede;
+  --line: #dcdcdc;
   --radius: 5px;
   --container: 1180px;
   --header-height: 88px;
@@ -75,18 +75,18 @@ h3 {
   letter-spacing: -0.6px;
 }
 em {
-  color: var(--green);
+  color: var(--primary);
   font-style: normal;
 }
 p {
   color: var(--muted);
 }
 ::selection {
-  background: var(--lime);
-  color: var(--green-dark);
+  background: var(--accent);
+  color: var(--primary-hover);
 }
 :focus-visible {
-  outline: 3px solid #4b791e;
+  outline: 3px solid #777777;
   outline-offset: 5px;
 }
 [hidden] {
@@ -103,7 +103,7 @@ p {
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 1.8px;
-  color: var(--green);
+  color: var(--primary);
   margin-bottom: 23px;
 }
 .button {
@@ -113,9 +113,9 @@ p {
   justify-content: center;
   gap: 35px;
   padding: 15px 23px;
-  background: var(--green);
+  background: var(--primary);
   color: var(--white);
-  border: 1px solid var(--green);
+  border: 1px solid var(--primary);
   border-radius: var(--radius);
   font-size: 14px;
   font-weight: 600;
@@ -125,7 +125,7 @@ p {
     transform 0.2s;
 }
 .button:hover {
-  background: var(--green-dark);
+  background: var(--primary-hover);
   transform: translateY(-2px);
 }
 .button span,
@@ -156,7 +156,7 @@ p {
   left: 20px;
   top: -100px;
   padding: 12px 18px;
-  background: var(--green);
+  background: var(--primary);
   color: white;
   z-index: 100;
 }
@@ -178,7 +178,7 @@ p {
 .site-header {
   position: sticky;
   top: 0;
-  background: rgba(246, 247, 241, 0.97);
+  background: rgba(245, 245, 245, 0.97);
   border-bottom: 1px solid var(--line);
   z-index: 20;
 }
@@ -213,7 +213,7 @@ p {
   font-style: italic;
   letter-spacing: -5px;
   padding-right: 16px;
-  color: var(--green);
+  color: var(--primary);
 }
 .brand-mark > span {
   position: absolute;
@@ -234,7 +234,7 @@ nav > a:not(.button) {
   padding-block: 14px;
 }
 nav > a:not(.button):hover {
-  color: var(--green);
+  color: var(--primary);
   text-decoration: underline;
   text-underline-offset: 6px;
 }
@@ -254,10 +254,16 @@ nav > a:not(.button):hover {
   margin-bottom: 14px;
 }
 @media (max-width: 850px) {
-  .header-inner .brand-logo { width: 210px; height: 54px; }
+  .header-inner .brand-logo {
+    width: 210px;
+    height: 54px;
+  }
 }
 @media (max-width: 420px) {
-  .header-inner .brand-logo { width: 190px; height: 48px; }
+  .header-inner .brand-logo {
+    width: 190px;
+    height: 48px;
+  }
 }
 /* 03. Hero: track geometry is decorative, no external asset required */
 .hero-grid {
@@ -278,7 +284,7 @@ nav > a:not(.button):hover {
 .status-dot {
   width: 6px;
   height: 6px;
-  background: var(--green);
+  background: var(--primary);
   border-radius: 50%;
   flex-shrink: 0;
 }
@@ -288,7 +294,7 @@ h1 {
   line-height: 1.03;
 }
 .hero-signature {
-  color: var(--green);
+  color: var(--primary);
   font-size: 14px;
   font-weight: 600;
   margin-top: 22px;
@@ -324,18 +330,18 @@ h1 {
   place-items: center;
   width: 31px;
   height: 31px;
-  border: 1px solid #a9b9a6;
+  border: 1px solid #b3b3b3;
   border-radius: 50%;
-  color: var(--green);
+  color: var(--primary);
 }
 .hero-art {
   height: 534px;
   position: relative;
   overflow: hidden;
-  background: var(--green);
+  background: var(--primary);
   border-radius: var(--radius);
   isolation: isolate;
-  color: var(--lime);
+  color: var(--accent);
 }
 .art-topline {
   position: absolute;
@@ -362,7 +368,7 @@ h1 {
 }
 .track > div {
   position: absolute;
-  border: 2px solid #8ca96b;
+  border: 2px solid #989898;
   border-radius: 240px;
   width: 100%;
   height: 100%;
@@ -376,7 +382,7 @@ h1 {
   inset: 48px;
   width: calc(100% - 96px);
   height: calc(100% - 96px);
-  border-color: var(--lime);
+  border-color: var(--accent);
 }
 .track > div:nth-child(4) {
   inset: 72px;
@@ -400,7 +406,7 @@ h1 {
 .track-marker > span {
   font-size: 8px;
   letter-spacing: 1px;
-  background: var(--green);
+  background: var(--primary);
   padding: 5px;
 }
 .track-marker > b {
@@ -409,10 +415,10 @@ h1 {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: var(--lime);
-  color: var(--green);
+  background: var(--accent);
+  color: var(--primary);
   font-size: 24px;
-  box-shadow: 0 0 0 10px #d1ee771b;
+  box-shadow: 0 0 0 10px #d9d9d926;
 }
 .art-bottom {
   position: absolute;
@@ -436,7 +442,7 @@ h1 {
 .art-number {
   font-size: 85px;
   line-height: 0.8;
-  color: #a4ba8b;
+  color: #b0b0b0;
   opacity: 0.6;
   font-weight: 700;
   letter-spacing: -7px;
@@ -457,7 +463,7 @@ h1 {
   letter-spacing: 2px;
 }
 .sport-strip b {
-  color: #789073;
+  color: #858585;
   font-size: 18px;
   font-weight: 400;
 }
@@ -493,7 +499,7 @@ h1 {
   font-weight: 600;
 }
 .benefits {
-  background: #eaf0e4;
+  background: #eaeaea;
 }
 .benefit-grid {
   display: grid;
@@ -501,12 +507,12 @@ h1 {
   gap: 45px;
 }
 .benefit-grid article {
-  border-top: 1px solid #c5d1be;
+  border-top: 1px solid #cdcdcd;
   padding-top: 22px;
 }
 .item-number {
   font-size: 12px;
-  color: var(--green);
+  color: var(--primary);
   font-weight: 600;
 }
 .benefit-grid h3 {
@@ -527,7 +533,7 @@ h1 {
 .service-card {
   padding: 28px;
   border: 1px solid var(--line);
-  background: #fbfcf8;
+  background: #fcfcfc;
   border-radius: var(--radius);
   display: flex;
   flex-direction: column;
@@ -535,7 +541,7 @@ h1 {
 }
 .service-symbol {
   font-size: 38px;
-  color: var(--green);
+  color: var(--primary);
   line-height: 1;
   margin-bottom: 32px;
 }
@@ -577,26 +583,26 @@ h1 {
   text-underline-offset: 4px;
 }
 .service-featured {
-  background: var(--green);
+  background: var(--primary);
   color: white;
-  border-color: var(--green);
+  border-color: var(--primary);
 }
 .service-featured p {
-  color: #d1ddcf;
+  color: #d7d7d7;
 }
 .service-featured .service-symbol,
 .service-featured .card-label {
-  color: var(--lime);
+  color: var(--accent);
 }
 .service-featured a {
-  border-color: #517362;
+  border-color: #626262;
 }
 .service-wide {
   grid-column: 1/-1;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: #eaf0e4;
+  background: #eaeaea;
   padding: 32px;
 }
 .service-wide > div {
@@ -608,24 +614,24 @@ h1 {
 }
 .triathlon-art {
   font-size: 68px;
-  color: var(--green);
+  color: var(--primary);
   letter-spacing: 15px;
   white-space: nowrap;
   padding-left: 20px;
 }
 .triathlon-art > span {
-  color: #7c9168;
+  color: #858585;
 }
 /* 06. Formats and clearly identified demonstration testimonials */
 .formats {
-  background: var(--green);
+  background: var(--primary);
   color: white;
 }
 .formats .eyebrow {
-  color: var(--lime);
+  color: var(--accent);
 }
 .formats .section-heading > p {
-  color: #cbd8cc;
+  color: #d3d3d3;
 }
 .formats-grid {
   display: grid;
@@ -633,7 +639,7 @@ h1 {
   gap: 22px;
 }
 .format-card {
-  border: 1px solid #517362;
+  border: 1px solid #626262;
   border-radius: var(--radius);
   padding: 29px 25px;
   display: flex;
@@ -641,14 +647,14 @@ h1 {
   align-items: flex-start;
 }
 .format-card .card-label {
-  color: var(--lime);
+  color: var(--accent);
 }
 .format-card h3 {
   font-size: 27px;
   margin: 10px 0 20px;
 }
 .format-card > p {
-  color: #d1ddcf;
+  color: #d7d7d7;
   font-size: 13px;
 }
 .format-card ul {
@@ -660,24 +666,24 @@ h1 {
 }
 .format-card li::before {
   content: "✓";
-  color: var(--lime);
+  color: var(--accent);
   margin-right: 10px;
 }
 .button-outline {
-  color: var(--green);
-  background: var(--lime);
-  border-color: var(--lime);
+  color: var(--primary);
+  background: var(--accent);
+  border-color: var(--accent);
   font-size: 11px;
   gap: 12px;
   width: 100%;
   margin-top: auto;
 }
 .button-outline:hover {
-  color: var(--green-dark);
-  background: #e0f4a6;
+  color: var(--primary-hover);
+  background: #ffffff;
 }
 .formats-note {
-  color: #cbd8cc;
+  color: #d3d3d3;
   font-size: 11px;
   text-align: center;
   margin-top: 26px;
@@ -696,8 +702,8 @@ h1 {
   font-size: 8px;
   letter-spacing: 1px;
   font-weight: 700;
-  background: #e7ecdf;
-  color: #4b5d41;
+  background: #e7e7e7;
+  color: #515151;
   padding: 6px 9px;
   border-radius: 3px;
 }
@@ -737,12 +743,12 @@ figcaption small {
 .avatar {
   width: 35px;
   height: 35px;
-  background: #e7ecdf;
+  background: #e7e7e7;
   display: grid;
   place-items: center;
   border-radius: 50%;
   font-size: 10px;
-  color: var(--green);
+  color: var(--primary);
 }
 /* 07. FAQ: native details remains usable without JavaScript */
 .faq {
@@ -782,7 +788,7 @@ summary::after {
   top: 20px;
   font-size: 23px;
   font-weight: 400;
-  color: var(--green);
+  color: var(--primary);
 }
 details[open] summary::after {
   content: "−";
@@ -794,7 +800,7 @@ details p {
 }
 /* 08. Contact */
 .contact {
-  background: #eaf0e4;
+  background: #eaeaea;
 }
 .contact-grid {
   display: grid;
@@ -826,7 +832,7 @@ details p {
 .contact-form {
   padding: 34px;
   background: var(--paper);
-  border: 1px solid #d5dece;
+  border: 1px solid #d8d8d8;
   border-radius: var(--radius);
 }
 .contact-form h3 {
@@ -856,7 +862,7 @@ input,
 select,
 textarea {
   width: 100%;
-  border: 1px solid #cbd3c5;
+  border: 1px solid #cfcfcf;
   border-radius: 3px;
   background: var(--white);
   color: var(--ink);
@@ -873,7 +879,7 @@ textarea {
 }
 input::placeholder,
 textarea::placeholder {
-  color: #73796f;
+  color: #737373;
 }
 .form-privacy {
   font-size: 10px;
@@ -896,7 +902,7 @@ textarea::placeholder {
   text-decoration: underline;
   display: inline-block;
   padding-block: 12px;
-  color: var(--green);
+  color: var(--primary);
 }
 /* 09. Footer and WhatsApp */
 .site-footer {
@@ -941,17 +947,17 @@ textarea::placeholder {
   display: flex;
   align-items: center;
   gap: 9px;
-  background: var(--green);
+  background: var(--primary);
   color: white;
-  border: 1px solid #8ca96b;
+  border: 1px solid #989898;
   border-radius: 40px;
   padding: 13px 18px;
-  box-shadow: 0 4px 16px #123b2c25;
+  box-shadow: 0 4px 16px #11111125;
   font-size: 11px;
   font-weight: 600;
 }
 .whatsapp-float:hover {
-  background: var(--green-dark);
+  background: var(--primary-hover);
 }
 /* 10. Responsive layouts */
 @media (min-width: 1500px) {

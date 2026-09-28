@@ -9,7 +9,7 @@ A identidade visual usa preto, branco e tons de prata/cinza em harmonia com a lo
 - HTML5 semântico.
 - CSS3: Grid, Flexbox, propriedades personalizadas e media queries.
 - JavaScript puro, sem bibliotecas, frameworks ou etapa de build.
-- Logo original fornecida pelo profissional, em JPEG local, e SVG para favicon. Elementos de pista desenhados em CSS, sem fontes externas.
+- Logo em preto com fundo transparente (PNG), adaptada da imagem fornecida pelo profissional, e SVG para favicon. O JPEG original é preservado. Elementos de pista desenhados em CSS, sem fontes externas.
 
 ## Funcionalidades
 
@@ -35,7 +35,8 @@ felipe-personal-landing/
 ├── .gitignore
 └── assets/
     ├── favicon.svg     # Ícone vetorial local
-    └── felipe-de-souza-logo.jpg # Logo original do profissional
+    ├── felipe-de-souza-logo.jpg # Logo original do profissional
+    └── felipe-logo-preta.png   # Versão preta com fundo transparente
 ```
 
 ## Executar localmente

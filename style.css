@@ -247,8 +247,7 @@ nav > a:not(.button):hover {
   height: 64px;
   object-fit: cover;
   object-position: center;
-  background: #000;
-  border-radius: 3px;
+  background: transparent;
 }
 .footer-brand .brand-logo {
   margin-bottom: 14px;

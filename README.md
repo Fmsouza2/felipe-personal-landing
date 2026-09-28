@@ -7,7 +7,7 @@ Landing page responsiva para apresentar Felipe de Souza, bacharel em Educação 
 - HTML5 semântico.
 - CSS3: Grid, Flexbox, propriedades personalizadas e media queries.
 - JavaScript puro, sem bibliotecas, frameworks ou etapa de build.
-- SVG local para favicon. Elementos de pista desenhados em CSS, sem fotografias ou fontes externas.
+- Logo original fornecida pelo profissional, em JPEG local, e SVG para favicon. Elementos de pista desenhados em CSS, sem fontes externas.
 
 ## Funcionalidades
 
@@ -32,7 +32,8 @@ felipe-personal-landing/
 ├── README.md
 ├── .gitignore
 └── assets/
-    └── favicon.svg     # Ícone vetorial local
+    ├── favicon.svg     # Ícone vetorial local
+    └── felipe-de-souza-logo.jpg # Logo original do profissional
 ```
 
 ## Executar localmente

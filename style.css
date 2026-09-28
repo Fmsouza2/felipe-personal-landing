@@ -241,6 +241,24 @@ nav > a:not(.button):hover {
 .menu-toggle {
   display: none;
 }
+.brand-logo {
+  display: block;
+  width: 250px;
+  height: 64px;
+  object-fit: cover;
+  object-position: center;
+  background: #000;
+  border-radius: 3px;
+}
+.footer-brand .brand-logo {
+  margin-bottom: 14px;
+}
+@media (max-width: 850px) {
+  .header-inner .brand-logo { width: 210px; height: 54px; }
+}
+@media (max-width: 420px) {
+  .header-inner .brand-logo { width: 190px; height: 48px; }
+}
 /* 03. Hero: track geometry is decorative, no external asset required */
 .hero-grid {
   display: grid;

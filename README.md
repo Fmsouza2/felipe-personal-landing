@@ -71,4 +71,3 @@ Por ser estático, o projeto pode ser servido por qualquer hospedagem de HTML/CS
 4. Confira modalidade e formato pré-selecionados pelos respectivos links.
 5. Verifique o número e o texto gerado no link do WhatsApp, sem enviar uma mensagem de teste real.
 6. Confira menu e FAQ sem JavaScript e com preferência por movimento reduzido.
-

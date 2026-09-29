@@ -128,25 +128,6 @@ p {
   background: var(--primary-hover);
   transform: translateY(-2px);
 }
-.button span,
-.text-link span {
-  font-size: 20px;
-  line-height: 1;
-}
-.icon-definitions {
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-}
-.whatsapp-icon {
-  width: 19px;
-  height: 19px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.8;
-  flex: 0 0 auto;
-}
 .button-small {
   min-height: 44px;
   padding: 12px 18px;
@@ -257,25 +238,26 @@ nav > a:not(.button):hover {
 }
 .brand-logo {
   display: block;
-  width: 250px;
-  height: 64px;
+  width: 280px;
+  height: 72px;
   object-fit: cover;
   object-position: center;
   background: transparent;
+  image-rendering: auto;
 }
 .footer-brand .brand-logo {
   margin-bottom: 14px;
 }
 @media (max-width: 850px) {
   .header-inner .brand-logo {
-    width: 210px;
-    height: 54px;
+    width: 230px;
+    height: 60px;
   }
 }
 @media (max-width: 420px) {
   .header-inner .brand-logo {
-    width: 190px;
-    height: 48px;
+    width: 205px;
+    height: 53px;
   }
 }
 /* 03. Hero: track geometry is decorative, no external asset required */
@@ -338,15 +320,6 @@ h1 {
   font-size: 12px;
   color: var(--ink);
 }
-.credential-icon {
-  display: grid;
-  place-items: center;
-  width: 31px;
-  height: 31px;
-  border: 1px solid #b3b3b3;
-  border-radius: 50%;
-  color: var(--primary);
-}
 .hero-art {
   height: 534px;
   position: relative;
@@ -387,22 +360,13 @@ h1 {
 .performance-item {
   min-height: 98px;
   display: grid;
-  grid-template-columns: 70px 1fr auto;
+  grid-template-columns: 1fr auto;
   align-items: center;
   gap: 16px;
   border-bottom: 1px solid #555;
 }
 .performance-item:last-child {
   border-bottom: 0;
-}
-.performance-item svg {
-  width: 57px;
-  height: 57px;
-  fill: none;
-  stroke: #f1f1f1;
-  stroke-width: 2.5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
 }
 .performance-item span {
   display: block;
@@ -465,11 +429,6 @@ h1 {
   font-weight: 600;
   letter-spacing: 2px;
 }
-.sport-strip b {
-  color: #858585;
-  font-size: 18px;
-  font-weight: 400;
-}
 /* 04. About and benefits */
 .about-grid {
   display: grid;
@@ -497,7 +456,7 @@ h1 {
   height: 100%;
   object-fit: cover;
   object-position: center 25%;
-  filter: grayscale(100%) contrast(1.08);
+  filter: contrast(1.04) saturate(1.04);
 }
 .about-photo figcaption {
   position: absolute;
@@ -581,12 +540,6 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
 }
-.service-symbol {
-  font-size: 38px;
-  color: var(--primary);
-  line-height: 1;
-  margin-bottom: 32px;
-}
 .card-label {
   display: block;
   font-size: 9px;
@@ -617,9 +570,6 @@ h1 {
   margin-top: auto;
   min-height: 44px;
 }
-.service-card a span {
-  font-size: 21px;
-}
 .service-card a:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -632,7 +582,6 @@ h1 {
 .service-featured p {
   color: #d7d7d7;
 }
-.service-featured .service-symbol,
 .service-featured .card-label {
   color: var(--accent);
 }
@@ -653,16 +602,6 @@ h1 {
 .service-wide p {
   max-width: 540px;
   margin-bottom: 20px;
-}
-.triathlon-art {
-  font-size: 68px;
-  color: var(--primary);
-  letter-spacing: 15px;
-  white-space: nowrap;
-  padding-left: 20px;
-}
-.triathlon-art > span {
-  color: #858585;
 }
 /* 06. Formats and clearly identified demonstration testimonials */
 .formats {
@@ -867,10 +806,6 @@ details p {
   gap: 20px;
   margin-top: 35px;
 }
-.contact-number .whatsapp-icon {
-  width: 22px;
-  height: 22px;
-}
 .contact-copy > .contact-location {
   font-size: 11px !important;
   margin-top: 10px !important;
@@ -1005,10 +940,6 @@ textarea::placeholder {
 .whatsapp-float:hover {
   background: var(--primary-hover);
 }
-.whatsapp-float .whatsapp-icon {
-  width: 25px;
-  height: 25px;
-}
 /* 10. Responsive layouts */
 @media (min-width: 1500px) {
   .hero-grid {
@@ -1058,10 +989,6 @@ textarea::placeholder {
   }
   .about-photo figcaption span + span {
     display: block;
-  }
-  .triathlon-art {
-    font-size: 48px;
-    letter-spacing: 9px;
   }
   .field-row {
     grid-template-columns: 1fr;
@@ -1287,12 +1214,8 @@ textarea::placeholder {
   }
   .performance-item {
     min-height: 78px;
-    grid-template-columns: 48px 1fr auto;
+    grid-template-columns: 1fr auto;
     gap: 9px;
-  }
-  .performance-item svg {
-    width: 42px;
-    height: 42px;
   }
   .performance-item strong {
     font-size: 14px;
@@ -1317,9 +1240,6 @@ textarea::placeholder {
   .sport-strip span {
     font-size: 9px;
     letter-spacing: 1px;
-  }
-  .sport-strip b {
-    font-size: 12px;
   }
   .section {
     padding-block: 62px;
@@ -1388,10 +1308,6 @@ textarea::placeholder {
   .service-card a {
     font-size: 10px;
   }
-  .service-symbol {
-    font-size: 31px;
-    margin-bottom: 25px;
-  }
   .card-label {
     font-size: 8px;
   }
@@ -1401,9 +1317,6 @@ textarea::placeholder {
   }
   .service-wide > div {
     width: 100%;
-  }
-  .triathlon-art {
-    display: none;
   }
   .formats-grid,
   .testimonial-grid {
@@ -1470,9 +1383,6 @@ textarea::placeholder {
     right: 16px;
     bottom: 16px;
     padding: 13px;
-  }
-  .whatsapp-float span {
-    display: none;
   }
 }
 @media (max-width: 390px) {

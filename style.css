@@ -338,15 +338,18 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 9px;
-  letter-spacing: 2px;
+  gap: 16px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1px;
   z-index: 2;
 }
 .art-topline > span:last-child {
-  color: #d7d7d7;
-  font-size: 8px;
+  color: #eeeeee;
+  font-size: 13px;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 1px;
 }
 .performance-panel {
   position: absolute;
@@ -1005,7 +1008,7 @@ textarea::placeholder {
   .art-topline {
     left: 22px;
     right: 22px;
-    font-size: 7px;
+    font-size: 22px;
   }
   .art-bottom {
     left: 22px;
@@ -1171,7 +1174,11 @@ textarea::placeholder {
     font-size: 8px;
   }
   .art-topline {
-    font-size: 8px;
+    font-size: 22px;
+  }
+  .art-topline > span:last-child {
+    font-size: 11px;
+    letter-spacing: 0.5px;
   }
   .art-bottom > span:first-child {
     font-size: 25px;

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Treinador Felipe de Souza</title><desc id="desc">Personal Trainer e Treinador Esportivo em Cascavel, Paraná.</desc>
+  <rect width="1200" height="630" fill="#111111"/>
+  <g fill="none" stroke="#8f8f8f" stroke-width="3" opacity=".8"><path d="M635 635C720 285 870 140 1230 90"/><path d="M700 635C780 310 930 165 1230 125"/><path d="M765 635C845 335 990 190 1230 160"/><path d="M830 635C910 360 1050 215 1230 195"/></g>
+  <g fill="#dedede"><path d="M107 264c-20-11-35-22-42-41-2-6 0-12 5-15 5-3 10-1 13 4 6 13 18 19 37 29 13 6 22 14 26 26l8 22c2 6-1 12-6 14-6 2-12-1-14-7l-8-20c-2-5-8-9-18-12Z"/><circle cx="109" cy="224" r="13"/></g>
+  <text x="155" y="250" fill="#f5f5f5" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="800" letter-spacing="1">FELIPE DE SOUZA</text>
+  <text x="366" y="292" fill="#dedede" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="4">TREINADOR</text>
+  <line x1="100" y1="365" x2="496" y2="365" stroke="#626262" stroke-width="2"/>
+  <text x="100" y="425" fill="#f5f5f5" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Personal Trainer e</text>
+  <text x="100" y="467" fill="#f5f5f5" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Treinador Esportivo</text>
+  <text x="100" y="548" fill="#dedede" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="2">CASCAVEL–PR  •  PRESENCIAL E ONLINE</text>
+  <g fill="#dedede" font-family="Arial, Helvetica, sans-serif"><text x="792" y="445" font-size="17" letter-spacing="3">CORRIDA</text><text x="965" y="490" font-size="17" letter-spacing="3">NATAÇÃO</text><text x="805" y="545" font-size="17" letter-spacing="3">CICLISMO</text></g>
+</svg>

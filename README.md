@@ -23,6 +23,7 @@ A identidade visual usa preto, branco e tons de prata/cinza em harmonia com a lo
 - WhatsApp flutuante, link alternativo para bloqueadores de pop-up e atualização automática do ano.
 - Link para pular ao conteúdo, foco visível, campos rotulados, status acessível e respeito a `prefers-reduced-motion`.
 - Layout adaptável para smartphones, tablets e desktop.
+- Favicon e metadados Open Graph/Twitter, com imagem de compartilhamento em JPEG para prévias no WhatsApp e em redes sociais.
 
 ## Estrutura
 

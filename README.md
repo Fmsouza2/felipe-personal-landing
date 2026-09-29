@@ -1,6 +1,6 @@
 # Treinador Felipe de Souza — Personal Trainer e Treinador Esportivo
 
-Landing page responsiva para apresentar Felipe de Souza, bacharel em Educação Física (CREF F025547-PR), seus serviços em Cascavel–PR e a consultoria online, gerando contatos pelo WhatsApp.
+Landing page responsiva para apresentar o Treinador Felipe de Souza, bacharel em Educação Física (CREF F025547-PR), seus serviços em Cascavel–PR e a consultoria online, gerando contatos pelo WhatsApp.
 
 ## Tecnologias
 
@@ -9,14 +9,14 @@ A identidade visual usa preto, branco e tons de prata/cinza em harmonia com a lo
 - HTML5 semântico.
 - CSS3: Grid, Flexbox, propriedades personalizadas e media queries.
 - JavaScript puro, sem bibliotecas, frameworks ou etapa de build.
-- Logo em preto com fundo transparente (PNG), adaptada da imagem fornecida pelo profissional, e SVG para favicon. O JPEG original é preservado. Elementos de pista desenhados em CSS, sem fontes externas.
+- Logo em preto com fundo transparente (PNG), adaptada da imagem fornecida pelo profissional, e SVG para favicon. O JPEG original é preservado. Painel de triatlo com corrida, natação e ciclismo, sem fontes externas.
 
 ## Funcionalidades
 
 - Navegação fixa, rolagem suave e menu mobile com suporte a Escape.
 - Apresentação profissional, benefícios e sete serviços: Personal Trainer, consultoria online, musculação, corrida, natação, ciclismo e triatlo.
 - Formatos presencial, online e preparação esportiva, com condições a combinar.
-- Depoimentos **fictícios e explicitamente identificados como demonstração**. Substitua-os apenas por relatos reais autorizados e remova os avisos somente após essa substituição.
+- Como funciona o acompanhamento: conversa inicial, planejamento e acompanhamento com ajustes.
 - FAQ expansível nativo (`details`/`summary`), inclusive sem JavaScript.
 - Formulário com validação, seleção de modalidade/formato e geração de mensagem para o WhatsApp.
 - Links de serviço preenchem a modalidade; links de atendimento preenchem o formato.
